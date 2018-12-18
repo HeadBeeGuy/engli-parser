@@ -1,0 +1,306 @@
+---
+sb:
+  :game_name: sb
+  :author: Joyce P. Le
+  :submission_date: June 24, 2010
+  :estimated_time: 50+ min
+  :parts_of_learning:
+    :speaking: true
+    :listening: true
+    :reading: true
+    :writing: false
+  :attached_files:
+  - "../Documents/JHS_Textbook_Game_StolenBag.doc"
+  :description: |+
+    DETAILED EXPLANATION:
+
+    - After students receive the worksheet (either one per group or each student), read or act out the scenario of Doraemon losing his bag. Then, read the hints and ensure the students understand.
+    - Together as a class, take the four hints and turn them into questions. Teachers should allow students a few minutes to write the questions before checking for answers. For lower-level classes, tell students to write “Were you...” and insert the bold phrases from the worksheet example sentences. For high-level classes, teachers should consider taking out the bolded areas.
+    - After practice reading the questions as a class, have students make groups and decide the order to play. Then, show students how to play the game.
+    - Role Play: The ALT will pretend to be in one of the groups and the first “student” to play. S/he will pretend to memorize the first question and then run to the JTE. You should say, “Anpanman, were you a McDonald's worker?” Then JTE and ALT will play Janken. You [ALT] should purposely lose and then run back to the group. The next student will run to the JTE with the same question, “Anpanman, were you a McDonald's worker?” The student and JTE will play Janken. If student wins, JTE will answer, “Yes, I was.” or “No, I wasn't.” Student will return to the group and share the answer. Then, the next student will go to the JTE with the next question, “Naruto, were you a McDonald's worker?” If student loses at Janken, they return to the group and the next student goes to the JTE with the same question.
+    - Students need to ask all 16 questions even if they discover the identity of the thief. NOTE: The thief is the person who answers “YES” to all the questions.
+    - It is recommended that students ask the questions in order from 1-4 about each character. In other words, students should ask question #1 about Anpanman, Naruto, Pikachu and Sazae-san before they ask question #2.
+    - Reward the groups who complete their worksheets.
+
+    TIPS/CAUTIONS:
+
+    - To avoid the possibility of students cheating and looking over at other groups' answers, make a chart on the blackboard. Mark off the question # and the character every time the student wins Janken.
+    - To avoid all members of the same group lining up to read the questions and play janken, give each group a marker or a baton and tell students that only the person holding it can leave his/her seat to go to the teachers.
+
+Inggeris:
+  :game_name: Inggeris
+  :author: Daphne Ding
+  :submission_date: June 14, 2010
+  :estimated_time: 15 min
+  :parts_of_learning:
+    :speaking: false
+    :listening: false
+    :reading: false
+    :writing: false
+  :attached_files:
+  - "../Documents/JHS_Textbook_Game_Inggeris.doc"
+  :description: |+
+    DETAILED EXPLANATION:
+
+    - After dividing the class into pairs, give out the worksheets.
+    - First, check students' knowledge of the English words listed by getting them to write down the corresponding Japanese meanings. You can introduce the target grammer at the same time: "What do you call 'thank you' in Japanese?"
+    - Practice question/answer format with the students: "What do you call ____ in Chinese?" "We call it ____."
+    - Give the class ten minutes to get the information from their partners.
+    - Check answers with the class using the Q & A format.
+
+    VARIATIONS:
+
+    - The grammar point can be changed to suit grade 3 students: "What is ____ called in Chinese?" "It's called ____."
+
+Dondake Money:
+  :game_name: Dondake Money
+  :author: Patrick Bickford
+  :submission_date: Nov 28, 2007
+  :estimated_time: 30 min
+  :parts_of_learning:
+    :speaking: false
+    :listening: false
+    :reading: false
+    :writing: true
+  :attached_files:
+  - "../Documents/Warmup_DondakeMoney.doc"
+  :description: |+
+    DETAILED EXPLANATION:
+
+    - Dondake definition: This catch-all exclamation of surprise/disbelief/reproach arose from the Shinjuku 2-chome gay community and was popularized by Ikko, a popular transvestite TV personality. Dondake can be used in a wide variety of situations, sort of like “Really?!” or “No way!” Usually said with a slight rising intonation and seasoned with whiny sarcasm.[23](http://www.pinktentacle.com/2007/11/top-60-japanese-buzzwords-of-2007/)
+    - Give each student a worksheet.
+    - Have the students write random dollar amounts from 1-5 down the ‘MONEY’ column.
+    - ALTJTE choose 10 random English words for the students to spell. If they spell the word correctly, they receive the amount. If they spell it incorrectly, they lose the amount.
+
+We Call It Bowser:
+  :game_name: We Call It Bowser
+  :author: Brenton Gettmann
+  :submission_date: Feb 09, 2011
+  :estimated_time: 20 min
+  :parts_of_learning:
+    :speaking: true
+    :listening: true
+    :reading: false
+    :writing: false
+  :attached_files:
+  - "../Documents/JHS_Textbook_Game_WeCallItBowser.doc"
+  - "../Documents/JHS_Textbook_Game_WeCallItPokemon.doc"
+  - "../Documents/JHS_Textbook_Game_WeCallItPokemonWS.doc"
+  - "../Documents/JHS_Textbook_Game_WeCallItBowserWS.pdf"
+  :description: |+
+    Detailed Explanation:
+
+    - After having students get into lunch and or small groups, explain that Mario characters in America are called totally different things than their Japanese versions.
+    - Pass out the activity sheets to each group (usually two sheets per group is fine).
+    - Have students repeat the target sentence a few times: "We call it..."
+    - Demo the activity with your JTE:
+
+    - Take one of the character pictures and fold it over on the dotted line so that students can only see the name. (Don't let them see the picture or they will automatically know the answer. The fun comes from them guessing over and over again. I usually cover the pic with my textbook and let name of the character hang over the edge.)
+    - Say "In America, we call it (the English name)."
+    - Then have your JTE guesses what the name is in Japanese by using the target grammar: "We call it (Japanese name)." For example, "We call it Koopa." (Have the JTE guess a couple of times until they get it correct.)
+    - After the demo, have students janken for order.
+    - All #1's stand up and show them the name of one of the characters. The fastest student to raise their hand gets to guess the name of the character in Japanese by using the grammar. (If they are correct, they get a point and you have the whole class repeat the correct sentence. Also, place the picture on the board so students can see what characters have already been said. If they are wrong, give another team a chance to guess.
+    - Repeat this process until you are out of character cards.
+    - Repeat all of the character names again at the very end using the grammar.
+
+    Variations:
+
+    - If you want to, you can hand out India's worksheet for this activity to include some writing. Just have them write the correct sentence down after somebody has guessed correctly.
+    - You can write the name of the characters on the board if you don't want to deal with trying to hide the picture while showing the name. Just show the picture after somebody has guessed correctly.
+
+    Teaching Suggestions:
+
+    - Make sure that each team guesses at least one time before another team has a second chance to guess because they will guess wrong a lot, but they think it's funny.
+
+    Tips/Cautions:
+
+    - This is an interesting cultural difference that the students don't really know about.
+
+bb:
+  :game_name: bb
+  :author: Charlotte Steggall
+  :submission_date: Apr 26, 2010
+  :estimated_time: 10 min
+  :parts_of_learning:
+    :speaking: false
+    :listening: false
+    :reading: true
+    :writing: true
+  :attached_files: []
+  :description: |+
+    DETAILED EXPLANATION:
+    - Split the class into three teams (my classes are sat in six nice columns so I set each team to be two columns). Draw two lines on the board to split the board into three as well.
+    - Give each team a piece of chalk. Students run to the board to write something on a certain theme, then run back to pass the chalk to their next team mate. Themes can be anything you want depending on the level of the class. JHS 2nd graders could do names of animals, or food, for example. I used this game after my intro lesson with my 3rd graders, and their theme was things they remembered about me. They could write anything they wanted, both sentences ("she has a brother") or words ("The UK").
+    - I usually award one point for Japanese words and two for English, but you can be stricter than that if you would like. For times when the same word or phrase has been used by more than one team, the only team who wrote that word first gets the point. This stops cheating. You can also award/take away points based on good grammar and spelling.
+
+    TIPS/CAUTIONS:
+
+    - This activity can be difficult with unmotivated classes because some students will refuse to get up. However, most classes will really have a good time playing this game.
+
+Go Fish:
+  :game_name: Go Fish
+  :author: Elem. ALT Team
+  :submission_date: Jun 19, 2007
+  :estimated_time: 30 min
+  :parts_of_learning:
+    :speaking: true
+    :listening: true
+    :reading: false
+    :writing: false
+  :attached_files: []
+  :description: |+
+    DETAILED EXPLANATION:
+
+    -
+    The goal of the game is to collect the most cards.
+    -
+    After teaching the target vocabulary, give students a complete card set of the words. Each set should include about eight cards, each card being a different word, and pictures to supplement the written English word. Students need to be told cards are to be kept secret because they seem to love to show each other.
+    -
+    Students walk around and find an opponent. They greet them, and play Janken.
+    -
+    The Janken winner says the card they want. If the loser has that card, they must give it to the winner. If they have more than one of the same card, they only have to give the winner one card. If the loser does not have the asked for card, they say, "Sorry."
+    -
+    They say their farewells, and find a new opponent and play again.
+
+    VARIATIONS:
+
+    -
+    Change the goal so the student must try to collect identical cards. The Janken winner says the target word for a card they want. If the loser has that card, they must hand it over. The winner then gives the loser a card they do not need. This ensures everyone always has the same number of cards. However, if the loser does not have the card, no cards are exchanged and they proceed with the farewells.
+    -
+    For a more advanced class, teach them how to ask for the card, "Do you have a ~ ," which is answered by, "Yes/No, I do/do not."
+
+    概要： 生徒はじゃんけんをしながら、目標語彙カードを求めて歩き回ります。
+
+    必要な教材：
+
+    - 上の「Materials Needed」に見てください。
+
+    手順：
+
+    -
+    グループの目標は、最も多くのカードを集めること。
+    -
+    各生徒に目標語彙を指示した後で、語彙が書かれている１セットのカードを与える。１セットには8枚くらいのカードを用意する。カードには１枚ずつ違う語彙と、書かれている語彙の内容を補うための絵を入れておく。生徒たちが互いに見せ合うところに面白さがあるので、カードはお互いに秘密にしておく。
+    - 生徒は歩き回って、じゃんけんする相手を見つける。相手が見つかったら挨拶してじゃんけんする。
+    - じゃんけんの勝者は、ほしいカードを言う。敗者がそのカードを持っていたら、勝者にそれをあげなければならない。敗者が同じカードを何枚も持っていても、勝者には１枚だけあげる。もし、敗者が要求されたカードを持っていなかったら"sorry." と言う。
+    - お別れのあいさつをして、新しいパートナーを見つけて、再び遊ぶ。
+
+    バリエーション：
+
+    -
+    生徒が同じカードを集めなければならないように、ゲームのめあてを変えてください。じゃんけんの勝者は、欲しいカードの語彙を言います。敗者がそのカードを持っていたら、それを渡さなければなりません。かわりに、勝者は敗者に自分が必要としないカードをあげます。これは、誰でも常に同じ数のカードを持つようにするためです。しかし、敗者が相手の要求するカードを持っていなかったら、カードのやりとりはしません。その場合は、さよならをして別の相手を見つけてゲームを続行します。
+    -
+    より上級クラスのために、"Yes/No, I do/do not."で答えられるように"Do you have a ~ ,"の表現方法を相手のカードを尋ねる方法として生徒に教えてくだ。
+
+    ---------------------------------------------------------------
+
+That Which Matching:
+  :game_name: That Which Matching
+  :author: Daniel Whiteman/Patrick Bickford
+  :submission_date: July 15, 2011
+  :estimated_time: 20 min
+  :parts_of_learning:
+    :speaking: false
+    :listening: false
+    :reading: true
+    :writing: false
+  :attached_files:
+  - "../Documents/JHS_Textbook_Game_ThatWhichMatching.doc"
+  - "../Documents/JHS_Textbook_Game_ThatWhichMatching_Patricks.doc"
+  - "../Documents/JHS_Textbook_Game_ThatWhichMatching.doc"
+  :description: |+
+    DETAILED EXPLANATION:
+
+    - This print doesn't require much explanation. The students will match the beginning of the sentence on the left side with the end of the sentence on the right side.
+    - If students finish early, have them translate the sentences at the end as an optional challenge. I say "optional" because if you make it mandatory, the lower level students may be discouraged when they don't have time to complete it. This is, of course, up to you.
+
+    TEACHING SUGGESTIONS:
+
+    - If you have high level students, you can erase the English that's on the translation part so that they have to translate from scratch. Also, feel free to make more difficult sentences for the matching if need be.
+
+    TIPS/CAUTIONS:
+
+    - This is best used to review the topic. It may be difficult as an introductory lesson.
+
+    [Daniel's](../Documents/JHS_Textbook_Game_ThatWhichMatching.doc)
+
+Job Fair Janken:
+  :game_name: Job Fair Janken
+  :author: Kirsten Phillips
+  :submission_date: Jan 11, 2008
+  :estimated_time: 30 min
+  :parts_of_learning:
+    :speaking: true
+    :listening: true
+    :reading: false
+    :writing: false
+  :attached_files:
+  - "../Documents/ES_Game_JobFairJanken.doc"
+  :description: |+
+    DETAILED EXPLANATION:
+
+    - Start each student with three random cards. Have them walk around the room holding their cards.
+    - When two students meet, they play Janken. The winner says “I want to be a ~”, and names a job card she would like to collect.
+    - If the losing student does not have the card needed, the winner may select another occupation until they receive one they need. If no needed card is available, the loser can just say “Sorry” and the winner moves on.
+    - Be careful the students don’t lie to each other. Due to the randomness of Janken, it will not be possible for everyone to create a full set so this game can get very competitive.
+    - If a student loses his/her cards, they ask the ALT/JTE for 3 new ones by saying: “I want to be a ~” 3 times.
+    - The student who collects the highest number of different cards is the winner.
+
+    VARIATIONS:
+
+    - These cards can be used for various purposes. The duck card is a “baba” or wild card. Print two copies of the card sheet and discard one ‘duck card’ to create a set of 19. Then you can play different games like Old Maid or Concentration (shinkei sui jaku).
+
+    TEACHING SUGGESTIONS:
+
+    -
+    Make sure to go over pronunciation of jobs, and the key phrase “I want to be a ~”.
+    -
+    I suggest making large flashcards of each job and hanging them on the blackboard so the students remember how many cards they need to collect to make a set.
+    -
+    Have extra cards on hand!!! Some students may lose all their cards early on.
+
+    TIPS/CAUTIONS:
+
+    -
+    You’ll have to do a lot of prep for this one, especially if you have a large class.
+    -
+    Set a time limit if using this game as a warm up to practice the target language.
+
+    -
+
+    概要： どんなに年齢が上がっても思慮深くなっても、生徒はじゃんけんが大好きです。生徒はいろいろな職業が書かれたカードを持って歩き、じゃんけんして１セットのカードを全部集めます。もちろん英語を使って。
+
+    必要な教材：
+
+    - 上の「Materials Needed」に見てください。
+
+    手順：
+
+    -
+    それぞれの生徒にアトランダムに３枚ずつのカードを持たせてゲームを始める。カードを持たせて、教室の中を歩き回らせる。
+    -
+    ２人が出会ったら、じゃんけんをする。勝者は“I want to be a ~”と言い、集めたいカードの職業名を言う。
+    -
+    もし、敗者がそのカードを持っていなかったら、勝者は自分が必要なカードを受け取れるまで他の職業名を選んで言うことができる。敗者が勝者の必要のないカードしか持っていなかったら、敗者は“Sorry”と言って、勝者は次に進む。
+    -
+    生徒がお互いにウソをつかないように注意する。じゃんけんの偶然性によって、誰もが完全なセットを集められるとは限る。このゲームはとても競争性の高いもの。
+    -
+    もし生徒が自分の手持ちのカードを全部失ったら、生徒はALT/JTEに“I want to be a ~” と３回言って、３枚の新しいカードをもらうことができる。
+    -
+    全部のカードを集めることができた生徒が勝つ。
+
+    バリエーション：
+
+    -  これらのカードはいろいろな目的で使えます。duck card は「ばば」（ワイルドカード）です。カードシートを２枚コピーして、１９枚のセットにするために１枚のduck cardを抜きます。それから、この１９枚のセットを使ってOld Maid やConcentration（神経衰弱）のような、違ったゲームをすることができます。
+
+    教える際のアドバイス：
+    - “I want to be a ~”というキイフレーズと発音を復習してください。
+    - それぞれの職業について大きいフラッシュカードを作って黒板に掲示しておくといいでしょう。生徒はそれを見て、１セットのカードを集めるのに何枚のカードを集める必要があるのか確認することができます。
+    - 予備のカードを持っていてください。生徒の何人かは早い段階で全部のカードを失ってしまうかもしれません。
+
+    注意すること：
+
+    - ここに
+
+    ---------------------------------------------------------------
+
