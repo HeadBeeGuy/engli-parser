@@ -116,6 +116,217 @@ We Call It Bowser:
 
     - This is an interesting cultural difference that the students don't really know about.
 
+Match Stuff Up:
+  :game_name: Match Stuff Up
+  :author: Raegina Taylor
+  :submission_date: Nov 06, 2007
+  :estimated_time: 50 min
+  :parts_of_learning:
+    :speaking: true
+    :listening: true
+    :reading: true
+    :writing: false
+  :attached_files:
+  - "../Documents/JHS_Textbook_Game_MatchStuffUp.doc"
+  :description: |+
+    DETAILED EXPLANATION:
+
+    1. Each student receives five actions and five object cards.Students go around the room with their cards and try to score cards off each other by playing Janken using the target dialogue.
+
+    2. The winner says a sentence using the ‘Let’s ~’ dialogue. The loser looks at their cards, and if they have a matching object they MUST say a sentence using the ‘Use this ~’ pattern.
+
+    3. If the actions and objects do not match, the students move onto a new partner. If they match, the winner receives both cards.
+
+    4. If students run out of cards, then they can come to the ALT and receive a complete new set of cards.
+
+    5. Students complete the writing activity according the cards they collected.
+
+    VARIATIONS:
+
+    - If you have spare time you could play a general game like the ball and music game to revise the grammar one more time. Students do the same game structure, only choosing pairs based on with whom the music stops.
+    - I have also included a back-up worksheet to put on the back of the general worksheet for students who finish early. Students who finish early don’t get bonus points for finishing the other side, but if they finish and just sit there, then I mark their paper and they don’t get any points – lovely and manipulative.
+
+    TEACHING SUGGESTIONS:
+
+    -  As a warm-up and to target all areas of learning do a warm-up listening dialogue like this one. You can use the attached sheet as a way to grade listening skills. Make sure you use loads of props and act it out. It gets the student’s involved and interested!
+    - ALT: Today, let’s go to the zoo!
+    - JTL: Ok! Here, use this car (draw a car on the board).
+    - ALT: Ok!Oh no, a bad tyre! (scribble over a tyre)
+    - JTL: Oh no! Use this horse. <pull out a flash card>
+    - ALT: Thanks! <start ‘riding’ across the classroom>Look! Jusco! <pointing> Let’s eat ice cream for breakfast!
+    - JTL: Oh really? Ok! <eats ice cream cutout> Yummy! <wipes mouth with a handkerchief and also blows their nose> <ALT spills ice cream/throws it at someone>Oh no! Here, use my handkerchief.
+    - JTL: Thank you, but I have tissues!
+
+    TIPS/CAUTIONS:
+
+    -
+    I tried to get boys and girls to talk together by giving only the boys certain cards and visa versa. This just meant they stood on opposite ends looking at each other and muttering ‘muri, muri’ for the duration of the activity. Instead, maybe get students to choose numbers at the beginning of the lesson which refers them to a group (so maybe only the numbers 1-6). They must talk to everyone in that group FIRST and then they can talk to whoever they like to complete the game. Don’t tell them this until after they have talked to everyone or they just won’t do it.
+
+Make A Monster:
+  :game_name: Make A Monster
+  :author: Ashlea Miyauchi
+  :submission_date: Dec 03, 2009
+  :estimated_time: 30 min
+  :parts_of_learning:
+    :speaking: false
+    :listening: true
+    :reading: false
+    :writing: false
+  :attached_files:
+  - "../Documents/JHS_Textbook_Game_MakeAMonster.doc"
+  :description: |+
+    DETAILED EXPLANATION:
+
+    - Explain that the students are going to make an original monster and pass out worksheet.
+    - Show them an example quickly - animal traits, a strange appetite or multiple body parts can easily make a monster. Draw it on the board and write 3-4 sentences: "Butracula eats pork. He flies to school. He lives in Tokyo.
+    - Give the students 5-10 minutes to write five sentences. They can draw a picture AFTER they finish their sentences.
+
+    VARIATIONS:
+
+    - Encourage higher level students to use like+infinitive, past tense, or relative clauses. But 1st year JHS are most likely to get excited about the activity.
+
+    TEACHING SUGGESTIONS:
+
+    - For slow starters, get them going with the prompts, "He eats..." "She lives..." "He doesn't like..."
+    - Use with worksheet Halloween Character Matching to give them some starter ideas.
+
+    TIPS/CAUTIONS:
+
+    - For small classes, have students present their monster.
+    - Some students will not get started at all. Even some of the smarter students won't like making an original character, so make this a supplement to the main lesson plan.
+
+Pacman:
+  :game_name: Pacman
+  :author: Patrick Bickford
+  :submission_date: Jun 19, 2007
+  :estimated_time: 50 min
+  :parts_of_learning:
+    :speaking: true
+    :listening: false
+    :reading: false
+    :writing: false
+  :attached_files:
+  - "../Documents/ES_Game_Pacmania.doc"
+  :description: |+
+    DETAILED EXPLANATION:
+
+    -
+    Split the class in teams. You decide the number of teams and players on each team, depending on your class size. Each group chooses their team’s color. I give each team three lives. I've played this game for one hour straight and have never had a team use all their lives. If a team comes close to dying, simply award a 'level-up' by awarding each team an extra life.
+    -
+    One PacMan from every team is placed in the 'START' area. The rectangle directly outside of the start area is a "safe area". The evil PacMan can't enter this area.
+    -
+    The teacher controls the ghosts. Two ghosts are placed on the game board. The ghost's initial location is chosen by playing Janken(see ‘group Janken’). All students, including the teacher, play against the ALT. The final two players of Janken place the ghosts anywhere they want on the game board.
+    -
+    One student from each team stands up. Play starts by showing a flashcard and asking for the English equivalent, or whatever creative method you have created for the students to drill new vocabulary. The first student to raise their hand and answers correctly can move their team's Pacman 1-3 spaces, depending on the difficulty of the question.
+    -
+    All of the Pacmen begin in the "Start Area". For the first move out of the start area, the student chooses one of the boxed numbers, located directly outside this area. The Man enters the 'dangerzone' from one of these numbers.
+    -
+    The goal of the game is to stay alive and to try and touch one of the four power pellets located in the four corners of the game board. If a team touches a pellet, they receive a point.
+    -
+    At the conclusion of every round, every ghost receives one move in any direction. Since there are two ghosts on the game board, the teacher receives two moves. The moves can be split between the ghosts OR collectively by moving only one ghost.
+    -
+    Eventually, the students find the ghosts are moving faster than they are, at which point you should 'level-up' every team's Pacmen by giving them more moves per turn.
+
+    VARIATIONS:
+
+    -
+    PacMan Bump: Take the ghosts out of the game. Have the teams compete against each other via the ‘PacMan bump’ option. If a PacMan touches a PacMan from another team, the ‘bumped’ PacMan is returned back to the start area. To avoid PacMen being bumped after one move out of the safe area, allow the first three moves to be 'safe moves'.
+    -
+    2-Mai Safety: If Pacmen are dying too quickly, add the ‘2-mai’ variation. ' Mai' is the Japanese counter for thin objects. If two Pacmen occupy the same space, they are safe until one of them moves. This includes two different teams occupying the same space.
+    -
+    Tunnel Options:
+
+    - To give the students a fighting chance, you might think about making the tunnels a safe area. Meaning, the Pacmen can can use the tunnels but the ghosts cannot.
+    - There are six tunnel entrances. Instead of a PacMan traveling straight through the tunnel, when a PacMan enters the tunnel, allow the team to choose the entrance they want to re-enter the game board.
+    -  Ghost Against PacMan: This variation is similar to the ‘PacMan bump,’ but instead of PacMen bumping each other, allow half of the teams to choose being ghost teams. Do you remember the original video game, when PacMan would touch a power pellet the ghosts would turn blue and were edible to PacMan? If one of the PacMan teams touches a power pellet, the ghosts turn blue for 10 rounds and the PacMen can chase the ghosts for 5-10 rounds.
+    -
+    Level-Up Pacman: When a PacMan enters the ‘danger area,’ insert another one of their lives into the safe area. The number of movements a team receives when they answer a question is based upon the number of PacMen in the danger zone. Therefore, if a team has three PacMen in the danger zone, their team receives three moves every time they answer a question. They can split their moves between their Pacmen or use all the movies on one piece.
+    -
+    Level-Up Ghost: Insert another ghost into the game board. Have everyone once again play Janken and the winner places the ghost anywhere they want on the game board. BTW, I've found that students usually place the new ghost next to an opposing team’s PacMan.
+    -  Leveling the Playing Field: Obviously, some students are better at English than others. Instead of the fastest student answering the question, insert a three-second timer after each question asked. When the timer runs out, everybody who has their hands raised plays a Janken against you.
+
+    TEACHING SUGGESTIONS:
+
+    -  This game is not for the faint of heart. I usually spend about 15-20 minutes explaining this game, but because it can virtually be used for any topic, the long-run benefits outweigh the loss of class time explaining rules. That being said, you can make this game as easy or as difficult as you want. For example, give random topics to the students and every word they say under the topic is one move for their PacMan - fruit: apple, orange, peach, grape, banana, etc.
+    - How can this game be used for any topic? The most basic method is to show a target vocabulary flashcard and ask for the English equivilant. However, my suggestion is to find other creative ways to practice the vocabulary.
+    - Changes to the rules above are encouraged. Different classes have different atmospheres.
+
+    TIPS/CAUTIONS:
+
+    -
+    If you use this game and it's not successful the first couple times, don't worry! Concentrate on the problem areas, change them and try again. I played this game three times and I was still making changes to the rules before I came up with a set of rules that worked for me.
+    - Game board size: I have already deleted half of the game board’s pellets. If the game board still too big, every computer has Microsoft Paint, which will allow you to easily erase even more pellets to allow for a faster moving game.
+
+    概要： 私の学校では、このゲームはいろいろなトピックに使える一番人気のものです。生徒は有害なゴースト（お化け）を避けながら、PacManをゲームボードの上で動かします。
+
+    必要な教材：
+
+    - 上の「Materials Needed」に見てください。
+    - 磁石六個 - 黒板にゲームボードを貼るため。
+    - どんな学校でもゲームをするのに必要なものはそろっていると思われます。
+    - ゲームボードを作る: 下記のゲームボードをプリントする。学校の拡大コピー機を使い、ゲームボードのサイズを黒板大に拡大します。
+    - ゲームの駒を作る: 下記のゲームの駒をプリントします。お化けのPackmenに色を塗ります。チームごとにPacMenは違う色を塗ります。その後で駒をラミネートします。そのあと両面テープを使ってそれぞれの駒の裏に薄いマグネットを付けます。
+
+    手順：
+
+    -
+    クラスを何組かのチームに別ける。クラスの大きさを考えて何チーム作るか、１チーム何人にするかは自由に決められる。グループはPacManの色を選んで３つの命をもらう。このゲームは１時間かけても３つの命全部を使いきるということは滅多にないのが、仮にもし、どこかのチームが３つとも使い終わったら、ご褒美として別の命を与えられて、レベルが上がる。
+    -
+    それぞれの チームから一つずつPacManを出して、全部まずSTARTの所に置きます。STARTのすぐ外側の長方形の場所は安全な所となります。お化けのPacManはそこには入れません。
+    -
+    HRTはお化けを操作る。ゲームボードに２つのお化けPackmanを置く。お化けを置く場所はじゃんけんで決める。生徒全員と先生はALTとじゃんけんをして、最後に残った二人が二つのお化けPackmanをゲームボードの好きなところに置くことができる。
+    -
+    ゲームが始まる！それぞれのチームから代表生徒一人ずつが立つ。フラッシュカードを見せて、英語で同じ意味を持つものを尋ねる。あるいは、何か独創的な方法で新しい語彙を練習する方法があればそれを使って生徒に質問を始めることでゲームを始める。答えが分かった生徒は手を上げて、英語で単語を言います。正しい答えを言った生徒はそのチームのPacManを１～３歩進める。 進む歩数はその問題の難易度によって変える。
+    -
+    全部のPackmenはスタート地点から始める。そこから一歩出るために、まず生徒はSTART地点の外にある番号を選ぶ。Packmanはこれらの番号の中から「危険地帯」に入ることもある。
+    -
+    ゲームの目標は生き続けることと、ゲームボードの四隅にある念力球にタッチすること。チームが球に触ると１ポイントもらえる。
+    -
+    一周まわるごとにお化けPackmenはどちらの方向へでも一歩に進めるようになる。ゲームボードには二つのお化けPackmenがあるので、HRTは二つのお化けPackmenのそれぞれを一歩ずつに進めるか、あるいは一つのお化けPackmanを二歩進めるということも出来る。
+    -
+    最終的に、生徒が自分のPacMenよりお化けPackmanの動きが早いと気がついたら、その時点で一回りするごとにそのチームのPacManの歩数を多くしてレベルアップすることが出来る。
+
+    バリエーション：
+
+    -
+    PacMan bump: このゲームでお化けPackmanはいりません。チームはお互いに“PacMan bump”同士のぶつかりあいとなります。チームのPacManが他のチームのPacManにちょうどぶつかったら、ぶつけたPacManはSTART地点に戻ります。PacManがSTART地点から出たとたんにぶつかって戻ることがないように、最初の三歩は安全とします。
+    -
+    ２Mai Safety: もしPacMenがすぐ死にやすい場合は、二つの命を持つこととします。もし、二つの違うチームのPackmanが同じ場所に入ってしまった場合は、どちらか一つが動くまで安全とします。
+    -
+    Tunnel Options:
+
+    -
+    戦うPackmanの安全地帯としてトンネルを作ります。PacMen　はトンネルを使えますがお化けPackmanは使えません。
+    -
+    トンネルを六つ作ります。PacManがトンネルを真っ直ぐ抜けるという単純な方法の代わりに、ゲームボードの好きな場所に出られるように、好きなトンネルを選んで入ることができることにします。
+
+    -
+    Ghost against PacMan: PacMan bump に似ていますがPacMenは他のPacMenとぶつかる代わりに半分のチームがお化けPackmanになります。PacManのビデオゲームを覚えていますか。PacManが念力球に触るとお化けは青くなり、PacManはお化けを食べられるようになることです。どこかのチームのPacManが念力球に触ると、お化けは１０ラウンド青くなり、PacManがお化けを５～１０ラウンド追いかけて捕まえることが出来ます。
+    -
+    Level Up PacMan:　PacMan の一つが「危険地帯」に入った時にチームの別の命を持ったPacManが安全地帯に入れます。質問に答えるごとに、動く歩数をもらいます。危険地帯にいるPacMenの数によっていくつチームが動けるかが決まります。危険地帯にPacMenが三つあれば、チームは三つの質問に答えることが出来、最大三歩動くことが出来ますができます。チームはそれぞれのPacMenを一歩ずつ動かすか、あるいは一つのパックマンを三歩動かすことが出来ます。
+    -
+    Level Up Ghost: ゲームボードにもう一つお化けを入れます。もう一度全員でじゃんけんをし、勝った人が好きなところへお化けを置くことができます。たいがい生徒は相手のPacManに近い所に置きます。
+    -
+    Leveling the Playing Field:　生徒の何人かは英語のレベルが高いことがあります。そういう生徒は答えが早いので、３秒タイマーを導入して、質問の３秒後にタイマーが鳴ったら、生徒は手を上げて、ALTと一緒にじゃんけんをして勝った生徒が答えます。
+
+    教える際のアドバイス：
+
+    -
+    このゲームは大体１５～２０分に説明の時間を要します。しかし、いろいろなトピックに使えるので、将来的には授業の時間の損失より後で役に立つことのほうが大きいでしょう。ゲームの難易度は自由に決められます。例えば、生徒に任意のトピックを与えます。生徒はトピックに関して思いつく単語を言うごとにPacManを一回ずつ動かせます。トピックが果物ならリンゴやオレンジやモモやブドウやバナナなどというわけです。
+    -
+    このゲームはどんなトピックにでも使用できます。最も簡単な方法は、対象となる言葉のフラッシュカードを見せて、英語で同等の意味を持つ言葉を尋ねることです。しかしながら、語彙を練習するためにその他の創造的な方法を見つけることをお勧めします。
+    -
+    下記のようにルールを変更します。クラスごとに違う雰囲気になるでしょう。
+
+    注意すること：
+
+    -
+    ゲームがうまく行かなくても、心配しないことです。最初の２，３回は慣れるのに時間が掛かります。問題になった箇所を改良して、もう一度やってみましょう。
+    -
+    もしゲームボードのサイズが大きすぎた場合は、Microsoft Paintを使い、動きが少し速くなるように、念力球を削除することができます。
+
+    ---------------------------------------------------------------
+
 bb:
   :game_name: bb
   :author: Charlotte Steggall
@@ -136,6 +347,127 @@ bb:
     TIPS/CAUTIONS:
 
     - This activity can be difficult with unmotivated classes because some students will refuse to get up. However, most classes will really have a good time playing this game.
+
+Liar Liar:
+  :game_name: Liar Liar
+  :author: Jeremy Thorn
+  :submission_date: Jul 01, 2009
+  :estimated_time: 50 min
+  :parts_of_learning:
+    :speaking: true
+    :listening: false
+    :reading: false
+    :writing: false
+  :attached_files: []
+  :description: |+
+    DETAILED EXPLANATION:
+
+    - Pass out the strips of paper.
+    - Using only English explain that the students should write something about themselves in English that is either true or a lie.
+    - They should write "True" or "Lie" on the paper too.
+    - Tell them to keep the paper a secret or else they won't win.
+    - Students take turns saying their statements.
+    - The class votes on whether it is TRUE or a LIE.
+    - The answer is then revealed.
+    - If the class voted incorrectly the student who made the statement gets a reward.
+
+    TEACHING SUGGESTIONS:
+
+    - This is a great way to get to know your students better.
+
+    TIPS/CAUTIONS:
+
+    - Depending on your school situation, you may have to screen the papers for inappropriate content.
+
+Behind My Back:
+  :game_name: Behind My Back
+  :author: Patrick Bickford
+  :submission_date: Dec 05, 2007
+  :estimated_time: 10 min
+  :parts_of_learning:
+    :speaking: true
+    :listening: true
+    :reading: false
+    :writing: false
+  :attached_files: []
+  :description: |+
+    DETAILED EXPLANATION:
+    - Have one student come to the front of the class and stand facing the chalkboard. Point at a random student and have them ask the question, “Who am I?”
+    - The student facing the chalkboard must guess which student asked the question. They respond by saying, “You are…,” or you could practice ～と思う grammar and have the student respond by saying, “I think you are…”
+    - If the student guesses correctly, they can return to their seat and the person who spoke replaces them. If they guess incorrectly, choose a different student to speak.
+    - If the voices are too easy to depict, have the student asking the question try to mask their voice. If it is too difficult, have the student ask the question more than once.
+
+    VARIATIONS:
+
+    - Try having the students saying different things, for example: reading a sentence, spelling a word, etc.
+
+Religion:
+  :game_name: Religion
+  :author: Patrick Bickford
+  :submission_date: Feb 23,, 2011
+  :estimated_time: 50 min
+  :parts_of_learning:
+    :speaking: false
+    :listening: true
+    :reading: true
+    :writing: true
+  :attached_files:
+  - "../Documents/HS_Game_Religion.doc"
+  - 5d.doc
+  :description: |+
+    DETAILED EXPLANATION:
+
+    -
+    See if the students can guess what ‘religion’ means. As a hint, tell them that Japan has two religions: Shinto and Buddhism.
+    -
+    Ask the students to name any religions they can. Use hints if necessary to make sure you get Christianity, Islam and Judaism. Then, move onto the worksheet:
+
+    -
+    Listening Exercise: The students listen to the following monologue and answer the questions on the handout.
+
+    - "September is a big festival for Muslims. The name of the festival is Ramadan. Muslims don’t eat after sunrise and before sunset. They only eat at night. The Jews have a big festival in October. The name of the festival is Yom Kippur. In this festival the Jews don’t eat for one day, from sunset to sunset. Christians also have a festival where they don’t eat. The name of the festival is Lent. They stop eating one food for 40 days."
+    - Reading Section: The JTE takes the students through the passage, making sure they understand. Then, the students answer three true or false questions.
+    - Criss-Cross Game: The students all stand up. I ask questions about what they have learned. Students raise their hand and answer. If they answer correctly they can sit down, and can choose if their row or their column sits with them. Continue until everyone is sitting.
+    - Write a Speech: Students write a speech about their favourite religious festival, typically Shinto. JTE gives translations for students about the festival being celebrated. Give them translations for kiriko and mikoshi before they start.
+    - Word Search: This activity is self-explanatory.
+
+    TIPS/CAUTIONS:
+
+    -
+    I don’t think the students really learned very much real stuff about the religions. They learned the names of the holy books and main prophet, but not what the religion really stands for. They did seem to understand about the similarities though, and while I didn’t really have time to dedicate to further points, they further seemed to understand my brief point about the sadness that they are so often at war with each other.
+
+Traditions Match:
+  :game_name: Traditions Match
+  :author: Rebecca Heer
+  :submission_date: April 20, 2014
+  :estimated_time: 10 min
+  :parts_of_learning:
+    :speaking: false
+    :listening: false
+    :reading: true
+    :writing: false
+  :attached_files:
+  - "../Documents/NonTextbook_Holiday_NewYear_TraditionsMatch.doc"
+  :description: |+
+    DETAILED EXPLANATION:
+
+    - Hand out worksheet
+    - Review traditions and country names, but do not give away the tradition's country.
+    - Have the students attempt to match up the traditions with the correct countries.
+    - Check the answers and give explanations to each tradition.
+
+    - Worksheet Answers
+
+    - Break plates: Denmark
+    - Colorful underpants: Brazil
+    - Kiss someone: America
+    - Fire Balls: Scotland
+    - Polka Dots: Philippines
+    - Mistletoe: Ireland
+
+    VARIATIONS:
+
+    - Ask the students which country they would enjoy the most for New Year's.
 
 Go Fish:
   :game_name: Go Fish
