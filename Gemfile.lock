@@ -1,0 +1,18 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    html2text (0.2.1)
+      nokogiri (~> 1.6)
+    mini_portile2 (2.4.0)
+    nokogiri (1.10.1)
+      mini_portile2 (~> 2.4.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  html2text
+  nokogiri
+
+BUNDLED WITH
+   1.17.2
