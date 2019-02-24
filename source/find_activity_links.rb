@@ -6,7 +6,8 @@ require 'yaml'
 engli_base_url = "http://englipedia.co/www.englipedia.net/Pages/"
 
 # "first level pages" are pages that link directly to activities
-first_level_pages = ["http://englipedia.co/www.englipedia.net/Pages/JHS_Grammar_Directions.html"]
+first_level_pages = ["http://englipedia.co/www.englipedia.net/Pages/JHS_Grammar_Directions.html",
+                     "http://englipedia.co/www.englipedia.net/Pages/Warmup.html"]
 
 # "second level pages" are pages that link to pages which have lists of activities
 second_level_pages = ["http://englipedia.co/www.englipedia.net/Pages/JHS_Textbook_2012_NewCrown02.html"]
@@ -22,7 +23,8 @@ second_level_pages.each do |slp|
   # if there are more patterns other than JHS_Grammar, ES_Game, or so on, I may
   # want to programmaticaly generate them. but it's expecting a list of string
   # parameters rather than an array, so I wonder how I'd do that.
-  slp_file.xpath("//a[contains(@href, 'JHS_Grammar')]").each do |link|
+  slp_file.xpath("//a[contains(@href, 'JHS_Grammar')]", 
+                "//a[contains(@href, 'Warmup')]").each do |link|
     first_level_pages << engli_base_url + link['href']
   end
 
@@ -33,10 +35,11 @@ first_level_pages.uniq!
 # Now that we have a list of first-level pages, scan them all for links to
 # individual activity pages.
 
-first_level_pages.each do |flp|
+first_level_pages.sample(40).each do |flp|
   page = Nokogiri::HTML( open(flp) )
   page.css('a').each do |link|
-    page.xpath("//a[contains(@href, 'Game_')]", "//a[contains(@href, 'GAME_')]").each do |link|
+    page.xpath("//a[contains(@href, 'Game_')]", "//a[contains(@href, 'GAME_')]",
+              "//a[contains(@href, 'Warmup_')]").each do |link|
       activity_uris << "http://englipedia.co/www.englipedia.net/Pages/" + link['href']
     end
   end
@@ -46,14 +49,21 @@ end
 # imported as an Englipedia Activity object.
 
 i = 0
-20.times do
+40.times do
   page_html = Nokogiri::HTML(open(activity_uris[i]))
 
   # The title often looks like "JHS_Grammar_Game_NameOfActivity"
   # So we have to run this batch of manipulations to get the bit after the 
   # last underscore and add spaces back in
-  title = page_html.css('title').text.scan(/[A-Za-z]+/).last
-    .gsub(/[A-Z]/) { |s| ' ' + s}.strip
+  title = page_html.css('title').text
+  level_info = { warmup: title.include?("Warmup"),
+                 es: title.include?("ES"),
+                 jhs: title.include?("JHS"),
+                 hs: title.include?("HS") && !title.include?("JHS") }
+  title = title.scan(/[A-Za-z]+/).last
+  unless title.nil?
+    title.gsub!(/[A-Z]/) { |s| ' ' + s}.strip
+  end
   puts "This activity seems to be called: #{title}"
 
   raw_text = Html2Text.convert(page_html)
@@ -63,6 +73,10 @@ i = 0
     author.gsub!(/SUBMITTED BY:\s?\[?/, '').chomp("]")
   end
 
+  outline = raw_text[/BRIEF OUTLINE:[a-zA-Z0-9 .-\/]+\]?/]
+  unless outline.nil?
+    outline.gsub!(/BRIEF OUTLINE:[ ]+/, '')
+  end
   estimated_time = raw_text[/[0-9\+]+\s{0,5}min/]
 
   submission_date = raw_text[/DATE ADDED:\s?[A-Za-z0-9, ]+/]
@@ -91,6 +105,7 @@ i = 0
   # so multiple scans once more :(
   attached_files = []
   raw_text.scan(/[a-zA-Z0-9\.\/_]+\.doc/) { |a| attached_files << a }
+  raw_text.scan(/[a-zA-Z0-9\.\/_]+\.docx/) { |a| attached_files << a }
   raw_text.scan(/[a-zA-Z0-9\.\/_]+\.pdf/) { |a| attached_files << a }
   raw_text.scan(/[a-zA-Z0-9\.\/_]+\.ppt/) { |a| attached_files << a }
 
@@ -99,7 +114,9 @@ i = 0
                 submission_date: submission_date,
                 estimated_time: estimated_time,
                 parts_of_learning: learning_descriptors, 
+                level_info: level_info,
                 attached_files: attached_files,
+                outline: outline,
                 description: description }
 
   File.write("../activity_text/for_seeding/activity_#{i}.txt", file_info.to_yaml)
