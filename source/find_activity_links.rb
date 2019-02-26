@@ -35,7 +35,7 @@ first_level_pages.uniq!
 # Now that we have a list of first-level pages, scan them all for links to
 # individual activity pages.
 
-first_level_pages.sample(40).each do |flp|
+first_level_pages.each do |flp|
   page = Nokogiri::HTML( open(flp) )
   page.css('a').each do |link|
     page.xpath("//a[contains(@href, 'Game_')]", "//a[contains(@href, 'GAME_')]",
@@ -45,12 +45,15 @@ first_level_pages.sample(40).each do |flp|
   end
 end
 
+activity_uris.uniq!
+puts "Found #{activity_uris.count} activity pages."
+
 # Go into each activity, parse its text, and save it in a file which can be
 # imported as an Englipedia Activity object.
 
 i = 0
-40.times do
-  page_html = Nokogiri::HTML(open(activity_uris[i]))
+activity_uris.sample(70).each do |page|
+  page_html = Nokogiri::HTML(open(page))
 
   # The title often looks like "JHS_Grammar_Game_NameOfActivity"
   # So we have to run this batch of manipulations to get the bit after the 
@@ -119,6 +122,8 @@ i = 0
                 outline: outline,
                 description: description }
 
-  File.write("../activity_text/for_seeding/activity_#{i}.txt", file_info.to_yaml)
+  unless title.nil?
+    File.write("../activity_text/for_seeding/activity_#{i}.txt", file_info.to_yaml)
+  end
   i += 1
 end
