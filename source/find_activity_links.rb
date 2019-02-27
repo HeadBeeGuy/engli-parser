@@ -73,10 +73,10 @@ activity_uris.sample(70).each do |page|
 
   author = raw_text[/SUBMITTED BY:\s?\[?[a-zA-Z .\/]+\]?/]
   unless author.nil?
-    author.gsub!(/SUBMITTED BY:\s?\[?/, '').chomp("]")
+    author.gsub!(/SUBMITTED BY:\s?\[?/, '').chomp!("]")
   end
 
-  outline = raw_text[/BRIEF OUTLINE:[a-zA-Z0-9 .-\/]+\]?/]
+  outline = raw_text[/BRIEF OUTLINE:[a-zA-Z0-9 .,-\/]+\]?/]
   unless outline.nil?
     outline.gsub!(/BRIEF OUTLINE:[ ]+/, '')
   end
