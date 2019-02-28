@@ -7,7 +7,8 @@ engli_base_url = "http://englipedia.co/www.englipedia.net/Pages/"
 
 # "first level pages" are pages that link directly to activities
 first_level_pages = ["http://englipedia.co/www.englipedia.net/Pages/JHS_Grammar_Directions.html",
-                     "http://englipedia.co/www.englipedia.net/Pages/Warmup.html"]
+                     "http://englipedia.co/www.englipedia.net/Pages/Warmup.html",
+                     "http://englipedia.co/www.englipedia.net/Pages/ES_Topic_Alphabet.html"]
 
 # "second level pages" are pages that link to pages which have lists of activities
 second_level_pages = ["http://englipedia.co/www.englipedia.net/Pages/JHS_Textbook_2012_NewCrown02.html"]
@@ -17,7 +18,7 @@ activity_uris = []
 
 # assemble first-level pages from second-level pages
 second_level_pages.each do |slp|
-  puts "current second-level page: #{slp}"
+  # puts "current second-level page: #{slp}"
   slp_file = Nokogiri::HTML( open(slp) )
 
   # if there are more patterns other than JHS_Grammar, ES_Game, or so on, I may
@@ -53,17 +54,22 @@ puts "Found #{activity_uris.count} activity pages."
 
 i = 0
 activity_uris.sample(70).each do |page|
-  page_html = Nokogiri::HTML(open(page))
+  begin
+    page_html = Nokogiri::HTML(open(page))
+  rescue OpenURI::HTTPError => ex
+    puts "Encountered a 404: #{page}"
+    next
+  end
 
   # The title often looks like "JHS_Grammar_Game_NameOfActivity"
   # So we have to run this batch of manipulations to get the bit after the 
   # last underscore and add spaces back in
-  title = page_html.css('title').text
-  level_info = { warmup: title.include?("Warmup"),
-                 es: title.include?("ES"),
-                 jhs: title.include?("JHS"),
-                 hs: title.include?("HS") && !title.include?("JHS") }
-  title = title.scan(/[A-Za-z]+/).last
+  original_title = page_html.css('title').text
+  level_info = { warmup: original_title.include?("Warmup"),
+                 es: original_title.include?("ES"),
+                 jhs: original_title.include?("JHS"),
+                 hs: original_title.include?("HS") && !original_title.include?("JHS") }
+  title = original_title.scan(/[A-Za-z]+/).last
   unless title.nil?
     title.gsub!(/[A-Z]/) { |s| ' ' + s}.strip
   end
@@ -76,9 +82,13 @@ activity_uris.sample(70).each do |page|
     author.gsub!(/SUBMITTED BY:\s?\[?/, '').chomp!("]")
   end
 
-  outline = raw_text[/BRIEF OUTLINE:[a-zA-Z0-9 .,-\/]+\]?/]
+  # outline = raw_text[/BRIEF OUTLINE:[a-zA-Z0-9 .,-\/]+\]?/]
+  outline = raw_text[/B(RIEF|rief)[\w :,'.?!\/()\"]+/]
   unless outline.nil?
     outline.gsub!(/BRIEF OUTLINE:[ ]+/, '')
+    unless outline.nil?
+      outline.gsub!(/Brief Outline:[ ]+/, '')
+    end
   end
   estimated_time = raw_text[/[0-9\+]+\s{0,5}min/]
 
@@ -123,7 +133,7 @@ activity_uris.sample(70).each do |page|
                 description: description }
 
   unless title.nil?
-    File.write("../activity_text/for_seeding/activity_#{i}.txt", file_info.to_yaml)
+    File.write("../activity_text/for_seeding/#{original_title}.txt", file_info.to_yaml)
   end
   i += 1
 end
