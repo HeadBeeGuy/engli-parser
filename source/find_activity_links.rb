@@ -8,30 +8,44 @@ engli_base_url = "http://englipedia.co/www.englipedia.net/Pages/"
 # "first level pages" are pages that link directly to activities
 first_level_pages = ["http://englipedia.co/www.englipedia.net/Pages/JHS_Grammar_Directions.html",
                      "http://englipedia.co/www.englipedia.net/Pages/Warmup.html",
-                     "http://englipedia.co/www.englipedia.net/Pages/ES_Topic_Alphabet.html"]
+                     "http://englipedia.co/www.englipedia.net/Pages/ES_Topic_GeneralGames.html",
+                     "http://englipedia.co/www.englipedia.net/Pages/JHS_Grammar_SelfIntros.html",
+                     "http://englipedia.co/www.englipedia.net/Pages/JHS_Grammar_Review_YearEnd_Grade01.html",
+                     "http://englipedia.co/www.englipedia.net/Pages/JHS_Grammar_Misc_NewHorizon.html",
+                     "http://englipedia.co/www.englipedia.net/Pages/JHS_Grammar_Review_MidReview.html",
+                     "http://englipedia.co/www.englipedia.net/Pages/HS.html"]
 
 # "second level pages" are pages that link to pages which have lists of activities
-second_level_pages = ["http://englipedia.co/www.englipedia.net/Pages/JHS_Textbook_2012_NewCrown02.html"]
+second_level_pages = ["http://englipedia.co/www.englipedia.net/Pages/ES_Topic.html",
+                      "http://englipedia.co/www.englipedia.net/Pages/Es_HiFriends-2.html",
+                      "http://englipedia.co/www.englipedia.net/Pages/JHS_Grammar.html",
+                      "http://englipedia.co/www.englipedia.net/Pages/JHS_Textbook_2012_NewCrown01.html",
+                      "http://englipedia.co/www.englipedia.net/Pages/JHS_Textbook_2012_NewCrown03.html",
+                      "http://englipedia.co/www.englipedia.net/Pages/JHS_Textbook_2012_NewCrown02.html"]
 # contains links to all activities found
 activity_uris = []
 
 
 # assemble first-level pages from second-level pages
 second_level_pages.each do |slp|
-  # puts "current second-level page: #{slp}"
+  puts "current second-level page: #{slp}"
   slp_file = Nokogiri::HTML( open(slp) )
 
   # if there are more patterns other than JHS_Grammar, ES_Game, or so on, I may
   # want to programmaticaly generate them. but it's expecting a list of string
   # parameters rather than an array, so I wonder how I'd do that.
   slp_file.xpath("//a[contains(@href, 'JHS_Grammar')]", 
-                "//a[contains(@href, 'Warmup')]").each do |link|
+                "//a[contains(@href, 'Warmup')]",
+                "//a[contains(@href, 'ES_HiFriends_')]",
+                "//a[contains(@href, 'ES_Topic_')]", # have to be careful that the general topic page is "ES_Topic.html"
+                "//a[contains(@href, 'ES_Topics_')]").each do |link|
     first_level_pages << engli_base_url + link['href']
   end
 
 end
 
 first_level_pages.uniq!
+
 
 # Now that we have a list of first-level pages, scan them all for links to
 # individual activity pages.
@@ -47,13 +61,15 @@ first_level_pages.each do |flp|
 end
 
 activity_uris.uniq!
+# filter out anything except for .html links
+activity_uris.filter!{ |link| link.include?("html") }
 puts "Found #{activity_uris.count} activity pages."
 
 # Go into each activity, parse its text, and save it in a file which can be
 # imported as an Englipedia Activity object.
 
 i = 0
-activity_uris.sample(70).each do |page|
+activity_uris.sample(100).each do |page|
   begin
     page_html = Nokogiri::HTML(open(page))
   rescue OpenURI::HTTPError => ex
@@ -71,7 +87,7 @@ activity_uris.sample(70).each do |page|
                  hs: original_title.include?("HS") && !original_title.include?("JHS") }
   title = original_title.scan(/[A-Za-z]+/).last
   unless title.nil?
-    title.gsub!(/[A-Z]/) { |s| ' ' + s}.strip
+    title.gsub!(/[A-Z]/) { |s| ' ' + s}.strip!
   end
   puts "This activity seems to be called: #{title}"
 
@@ -83,7 +99,7 @@ activity_uris.sample(70).each do |page|
   end
 
   # outline = raw_text[/BRIEF OUTLINE:[a-zA-Z0-9 .,-\/]+\]?/]
-  outline = raw_text[/B(RIEF|rief)[\w :,'.?!\/()\"]+/]
+  outline = raw_text[/B(RIEF|rief)[\w :,'`.-?!\/()\"]+/]
   unless outline.nil?
     outline.gsub!(/BRIEF OUTLINE:[ ]+/, '')
     unless outline.nil?
@@ -102,7 +118,7 @@ activity_uris.sample(70).each do |page|
   # every activity appears to end with "If you have an updated attachment..."
   description = raw_text[/D(ETAILED|etailed)[\w\W]+If you have an updated/]
   unless description.nil?
-    description.gsub!(/If you have an updated/, "")
+    description.gsub!(/If you have an updated/, "").rstrip!
   end
 
   # Inefficiently search the entire description four times
@@ -126,6 +142,7 @@ activity_uris.sample(70).each do |page|
                 author: author,
                 submission_date: submission_date,
                 estimated_time: estimated_time,
+                original_url: page,
                 parts_of_learning: learning_descriptors, 
                 level_info: level_info,
                 attached_files: attached_files,
@@ -133,7 +150,13 @@ activity_uris.sample(70).each do |page|
                 description: description }
 
   unless title.nil?
-    File.write("../activity_text/for_seeding/#{original_title}.txt", file_info.to_yaml)
+    File.write("../activity_text/for_seeding/#{original_title.strip}.txt", file_info.to_yaml)
   end
   i += 1
 end
+
+# print_to_file = ""
+# activity_uris.each do |uri|
+#   print_to_file << "#{uri}\n"
+# end
+# File.write("./activity_uris.txt", print_to_file)
