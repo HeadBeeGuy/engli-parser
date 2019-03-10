@@ -9,9 +9,11 @@ engli_base_url = "http://englipedia.co/www.englipedia.net/Pages/"
 first_level_pages = ["http://englipedia.co/www.englipedia.net/Pages/JHS_Grammar_Directions.html",
                      "http://englipedia.co/www.englipedia.net/Pages/Warmup.html",
                      "http://englipedia.co/www.englipedia.net/Pages/ES_Topic_GeneralGames.html",
+                     "http://englipedia.co/www.englipedia.net/Pages/GeneralGame.html",
                      "http://englipedia.co/www.englipedia.net/Pages/JHS_Grammar_SelfIntros.html",
                      "http://englipedia.co/www.englipedia.net/Pages/JHS_Grammar_Review_YearEnd_Grade01.html",
                      "http://englipedia.co/www.englipedia.net/Pages/JHS_Grammar_Misc_NewHorizon.html",
+                     "http://englipedia.co/www.englipedia.net/Pages/JHS_Grammar_Misc_Sunshine.html",
                      "http://englipedia.co/www.englipedia.net/Pages/JHS_Grammar_Review_MidReview.html",
                      "http://englipedia.co/www.englipedia.net/Pages/HS.html"]
 
@@ -46,6 +48,10 @@ end
 
 first_level_pages.uniq!
 
+# On some first-level pages, there are links for activity files with no page attached.
+# I'm not quite sure what to do with these, but we may as well track them if we want
+# to use them somehow later.
+lone_files = []
 
 # Now that we have a list of first-level pages, scan them all for links to
 # individual activity pages.
@@ -57,9 +63,14 @@ first_level_pages.each do |flp|
               "//a[contains(@href, 'Warmup_')]").each do |link|
       activity_uris << "http://englipedia.co/www.englipedia.net/Pages/" + link['href']
     end
+    page.xpath("//a[contains(@href, '.doc')]", "//a[contains(@href, '.docx')]",
+               "//a[contains(@href, '.pdf')]").each do |link|
+      lone_files << link
+    end
   end
 end
 
+lone_files.uniq!
 activity_uris.uniq!
 # filter out anything except for .html links
 activity_uris.filter!{ |link| link.include?("html") }
@@ -68,8 +79,7 @@ puts "Found #{activity_uris.count} activity pages."
 # Go into each activity, parse its text, and save it in a file which can be
 # imported as an Englipedia Activity object.
 
-i = 0
-activity_uris.sample(100).each do |page|
+activity_uris.each do |page|
   begin
     page_html = Nokogiri::HTML(open(page))
   rescue OpenURI::HTTPError => ex
@@ -87,9 +97,12 @@ activity_uris.sample(100).each do |page|
                  hs: original_title.include?("HS") && !original_title.include?("JHS") }
   title = original_title.scan(/[A-Za-z]+/).last
   unless title.nil?
-    title.gsub!(/[A-Z]/) { |s| ' ' + s}.strip!
+    title.gsub!(/[A-Z]/) { |s| ' ' + s}
+    unless title.nil?
+      title.strip!
+    end
   end
-  puts "This activity seems to be called: #{title}"
+  # puts "This activity seems to be called: #{title}"
 
   raw_text = Html2Text.convert(page_html)
 
@@ -152,11 +165,17 @@ activity_uris.sample(100).each do |page|
   unless title.nil?
     File.write("../activity_text/for_seeding/#{original_title.strip}.txt", file_info.to_yaml)
   end
-  i += 1
 end
 
-# print_to_file = ""
-# activity_uris.each do |uri|
-#   print_to_file << "#{uri}\n"
-# end
-# File.write("./activity_uris.txt", print_to_file)
+print_to_file = ""
+lone_files.each do |uri|
+  print_to_file << "#{uri}\n"
+end
+File.write("./lone_files.txt", print_to_file)
+
+
+print_to_file = ""
+activity_uris.each do |uri|
+  print_to_file << "#{uri}\n"
+end
+File.write("./activity_uris.txt", print_to_file)
